@@ -1,0 +1,38 @@
+
+.strip {
+        display: flex;
+        flex-direction: row;
+        // justify-content: center;
+        right: 10px;
+        align-items: center;
+        gap: 20px;
+        padding: 8px 0px;
+        background-color: #121315;
+        width: 75%;
+        margin: auto;
+        border-radius: 10px;
+        cursor: pointer;
+        color: white;
+        padding: 0;
+        margin-top: 20px;
+
+        .decor{
+            color: #cae962;
+            font-size:50px ;
+            font-weight:100;
+            margin-left: 10px;
+            // line-height: 0%;
+        }
+        .firstContent{
+            // justify-content: ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        } 
+        img{
+            height: 45px;
+            width: 45px;
+        }
+    }
+

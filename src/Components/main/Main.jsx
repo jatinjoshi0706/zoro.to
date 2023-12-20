@@ -49,7 +49,7 @@ const Main = () => {
                         </div>
                     </div>
                     <div className="strip" >
-                        <h3 >View Full Site</h3>
+                        <a>View Full Site</a>
                         <FaArrowRightLong />
                     </div>
                 </div >

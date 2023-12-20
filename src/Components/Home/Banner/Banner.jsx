@@ -19,8 +19,8 @@ const Banner = () => {
                 <img className='slider-img' src={sliderImg} alt=' ' />
                 <div className='slider-content'>
 
-                    <div className='sub-text'>#1 Spotlight</div>
-                    <div className='head-text'>ONE PIECE</div>
+                    <div className='sub-text'>#1 Spotlight</div><br/>
+                    <div className='head-text'>ONE PIECE</div><br/>
                     <div className='sl-details'>
                         <div className='sl-details-item-icon'>
                             <FaCirclePlay />
@@ -40,10 +40,10 @@ const Banner = () => {
                                 11</span>
                             <span className='ex'><FaMicrophone />1036</span>
                         </div>
-                    </div>
+                    </div><br/>
                     <div className='sl-desc'>
                         "Barely surviving in a barrel after passing through a terrible whirlpool at sea, carefree Monkey D. Luffy ends up aboard a ship under attack by fearsome pirates. Despite being a naive-looking teenager, he is not to be underestimated. Unmatched in batt..."
-                    </div>
+                    </div><br/>
                     <div className='sl-btn'>
                         <FaCirclePlay />
                         <a>Watch Now</a>

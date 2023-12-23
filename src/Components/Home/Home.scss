@@ -11,7 +11,7 @@
 }
 
 .main-home {
-    background-color:#202125;
+    background-color: #202125;
     // width: 100%;
     position: relative;
     top: -72px;
@@ -115,11 +115,159 @@
         // bottom: 0;
     }
 
-    .row{
+    .row {
         margin: 30px 20px 0 20px;
         display: flex;
         justify-content: space-between;
         gap: 30px;
+    }
+
+    .section04 {
+        margin: 50px 20px;
+
+        .recently-updated {
+
+            .recentHeadSection {
+                display: flex;
+                gap: 20px;
+
+                .heading {
+                    font-size: 22px !important;
+                    line-height: 40px;
+                    font-weight: 600;
+                    padding: 0;
+                    margin: 0;
+                    color: #cae962;
+                    display: inline-block;
+                }
+            }
+        }
+
+        .tags {
+            // display: flex;
+            // justify-content: start;
+            // @media (min-width: 768px) {
+            //     justify-content: center;
+            // }
+            // margin-bottom: 50px;
+            // overflow: auto;
+
+            .tag {
+                display: inline-block;
+                /* Tag styles */
+                background-color: #424141;
+                padding: 7px 13px;
+                font-size: 16px;
+                line-height: 24px;
+                cursor: pointer;
+                white-space: nowrap;
+                border: none;
+                border-radius: 0;
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 34px;
+                padding: 0 12px;
+            }
+
+            .tag.selected {
+                background-color: #EFB946;
+                color: black;
+            }
+
+            .tag:first-child {
+                border-radius: 10px 0 0 10px;
+            }
+
+            .tag:last-child {
+                border-radius: 0 10px 10px 0;
+            }
+        }
+
+        .recently-updated{
+            max-width: 78%;
+
+        }
+        .recentgrid {
+            display: grid;
+                gap: 2rem;
+                align-items: start;
+                grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+                margin-top: 20px;
+                
+            
+            .gridItem {
+                display: inline-block;
+                // border: 2px solid white
+                background-color: #383839;
+                max-width: fit-content;
+                border-radius: 3px;
+                img {
+                    height: 250px;
+                    aspect-ratio: 9/12;
+                    object-fit: cover;
+                    background-color: lin
+                    
+                }
+                img::after{
+                    content: "";
+                    position: absolute;
+                    top: 40%;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    z-index: 2;
+                    background: #2a2c31;
+                    background: linear-gradient(0deg,#2a2c31 0,rgba(42,44,49,0) 76%);
+                }
+
+                .head {
+                    font-size: 14px;
+                    line-height: 1.3em;
+                    margin: 0;
+                    font-weight: 500;
+                    margin-bottom: 10px;
+                    height: 37px;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    // // overflow: hidden;
+                    a {
+                        color: #fff;
+                        text-decoration: none !important;
+                        outline: 0;
+                        -moz-outline: none;
+                    }
+                }
+                .tv,.date{
+                    color: rgb(128, 127, 127);
+                }
+
+
+                .itemContent {
+                    color: #aaa;
+                    font-size: 12px;
+                    padding: 0 10px;
+                    border-radius: 0 0 10px 10px;
+                    min-height: 84px;
+                    width: 14em;
+                }
+                .dot{
+                    width: 4px;
+                    height: 4px;
+                    border-radius: 50%;
+                    background: rgba(255,255,255,.3);
+                    display: inline-block;
+                    margin: 3px 6px;
+                }
+            }
+        }
+        // .genresSection{
+        //     // position: absolute;
+        //     // top: ;
+        // }
+    }
+    .section04{
+        
     }
 
 }

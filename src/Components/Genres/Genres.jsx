@@ -9,12 +9,12 @@ const Genres = () => {
                 <div className='genres'>
                     <div className='genresList'>
                         {genres.map((e) => (
-                            <span className='genresName'> <a>{e}</a></span>
+                            <span className='genresName'> <a href='#'>{e}</a></span>
                         ))}
                     </div>
-                    <div className='showMore'>
-                        <a className="more" href='#'>Show More</a>
-                    </div>
+                        <button clbuttonssName="more" href='#'>Show More</button>
+                    {/* <div className='showMore'>
+                    </div> */}
                 </div>
             </div>
         </>

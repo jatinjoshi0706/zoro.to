@@ -9,6 +9,7 @@ import ItemCard from './Card/ItemCard';
 import SocialConnect from '../main/SocialConnect/SocialConnect';
 import AnimeFeatured from './AnimeFeatured/AnimeFeatured';
 import Genres from '../Genres/Genres.jsx';
+import gridItem01 from "../../Assets/onepieceItemImg.jpg"
 const Home = () => {
     return (
         <>
@@ -42,10 +43,113 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                
-               <div className='genresSection'>
-                <Genres/>
-               </div>
+                <div className='section04'>
+                    <div className='recently-updated'>
+                        <div className='recentHeadSection'>
+                            <h2 className='heading'>Recently Updated</h2>
+                            <span class="tags">
+                                <div class="tag" data-id="1">Tag 1</div>
+                                <div class="tag" data-id="1">Tag 1</div>
+                                <div class="tag" data-id="2">Tag 2</div>
+                            </span>
+                        </div>
+                        <div className='recentgrid'>
+                            <div className='gridItem'>
+                                <img src={gridItem01} />
+                                <div className='itemContent'>
+                                    <span className='head'><a href='#'>Cardfight!! Vanguard will+Dress Season 3</a></span>
+                                    <span className='tv'>TV</span>
+                                    <span className='dot'></span>
+                                    <span className='date'>Jul 08,2023</span>
+                                </div>
+                            </div>
+                            <div className='gridItem'>
+                                <img src={gridItem01} />
+                                <div className='itemContent'>
+                                    <span className='head'><a href='#'>Cardfight!! Vanguard will+Dress Season 3</a></span>
+                                    <span className='tv'>TV</span>
+                                    <span className='dot'></span>
+                                    <span className='date'>Jul 08,2023</span>
+                                </div>
+                            </div>
+                            <div className='gridItem'>
+                                <img src={gridItem01} />
+                                <div className='itemContent'>
+                                    <span className='head'><a href='#'>Cardfight!! Vanguard will+Dress Season 3</a></span>
+                                    <span className='tv'>TV</span>
+                                    <span className='dot'></span>
+                                    <span className='date'>Jul 08,2023</span>
+                                </div>
+                            </div>
+                            <div className='gridItem'>
+                                <img src={gridItem01} />
+                                <div className='itemContent'>
+                                    <span className='head'><a href='#'>Cardfight!! Vanguard will+Dress Season 3</a></span>
+                                    <span className='tv'>TV</span>
+                                    <span className='dot'></span>
+                                    <span className='date'>Jul 08,2023</span>
+                                </div>
+                            </div>
+                            <div className='gridItem'>
+                                <img src={gridItem01} />
+                                <div className='itemContent'>
+                                    <span className='head'><a href='#'>Cardfight!! Vanguard will+Dress Season 3</a></span>
+                                    <span className='tv'>TV</span>
+                                    <span className='dot'></span>
+                                    <span className='date'>Jul 08,2023</span>
+                                </div>
+                            </div>
+                            <div className='gridItem'>
+                                <img src={gridItem01} />
+                                <div className='itemContent'>
+                                    <span className='head'><a href='#'>Cardfight!! Vanguard will+Dress Season 3</a></span>
+                                    <span className='tv'>TV</span>
+                                    <span className='dot'></span>
+                                    <span className='date'>Jul 08,2023</span>
+                                </div>
+                            </div>
+                            <div className='gridItem'>
+                                <img src={gridItem01} />
+                                <div className='itemContent'>
+                                    <span className='head'><a href='#'>Cardfight!! Vanguard will+Dress Season 3</a></span>
+                                    <span className='tv'>TV</span>
+                                    <span className='dot'></span>
+                                    <span className='date'>Jul 08,2023</span>
+                                </div>
+                            </div>
+                            <div className='gridItem'>
+                                <img src={gridItem01} />
+                                <div className='itemContent'>
+                                    <span className='head'><a href='#'>Cardfight!! Vanguard will+Dress Season 3</a></span>
+                                    <span className='tv'>TV</span>
+                                    <span className='dot'></span>
+                                    <span className='date'>Jul 08,2023</span>
+                                </div>
+                            </div>
+                            <div className='gridItem'>
+                                <img src={gridItem01} />
+                                <div className='itemContent'>
+                                    <span className='head'><a href='#'>Cardfight!! Vanguard will+Dress Season 3</a></span>
+                                    <span className='tv'>TV</span>
+                                    <span className='dot'></span>
+                                    <span className='date'>Jul 08,2023</span>
+                                </div>
+                            </div>
+                            <div className='gridItem'>
+                                <img src={gridItem01} />
+                                <div className='itemContent'>
+                                    <span className='head'><a href='#'>Cardfight!! Vanguard will+Dress Season 3</a></span>
+                                    <span className='tv'>TV</span>
+                                    <span className='dot'></span>
+                                    <span className='date'>Jul 08,2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='genresSection'>
+                        <Genres />
+                    </div>
+                </div>
             </div>
         </>
     );

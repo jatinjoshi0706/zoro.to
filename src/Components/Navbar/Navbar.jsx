@@ -8,6 +8,7 @@ import discord from "../../Assets/icons8-discord-50.png";
 import arrow from "../../Assets/icons8-fork-arrow-50.png";
 import community from "../../Assets/icons8-message-50.png";
 import hotspot from "../../Assets/icons8-hotspot-50.png";
+import { useEffect } from 'react';
 import "../Navbar/Navbar.scss"
 import { useState } from 'react';
 import { FaSearch } from "react-icons/fa";
@@ -15,13 +16,29 @@ const Navbar = () => {
 
     const [selectedLanguage, setSelectedLanguage] = useState("en");
 
-  const selectLanguage = (language) => {
-    setSelectedLanguage(language);
-  };
+    const selectLanguage = (language) => {
+        setSelectedLanguage(language);
+    };
 
+    //navbarscroll Effect
+    const [scrollPosition, setScrollPosition] = useState(0);
+    useEffect(() => {
+        const handleScroll = () => {
+            setScrollPosition(window.scrollY);
+        };
+        // Attach the scroll event listener when the component mounts
+        window.addEventListener('scroll', handleScroll);
+        // Remove the scroll event listener when the component unmounts
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+    const headerStyle = {
+        backgroundColor: scrollPosition > 1 ? 'rgba(32,33,37,.95)' : 'rgba(32,33,37,0.2)'
+      };
     return (
         <>
-            <div className='nav-container'>
+            <div className='nav-container' style={headerStyle}>
                 <div className='burger-menu'>
                     <img alt=" " src={burger_menu} />
                 </div>
@@ -71,7 +88,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            
+
         </>
     );
 }

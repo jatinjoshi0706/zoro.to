@@ -1,0 +1,134 @@
+.anif-block {
+    min-height: 300px;
+    width: fit-content;
+    background: #4a4b51;
+
+    .anif-block-header {
+        font-size: 18px;
+        font-weight: 500;
+        color: #cae962;
+        padding: 15px 20px;
+    }
+
+    .ulclear {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li:nth-of-type(2n+1) {
+            background: #414248;
+        }
+
+        li {
+            position: relative;
+            padding: 6px 50px 6px 80px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            text-align: -webkit-match-parent;
+
+            .film-poster {
+                width: 45px;
+                padding-bottom: 60px;
+                border-radius: 3px;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 20px;
+                z-index: 2;
+                // width: 100%;
+                // padding-bottom: 148%;
+                // position: relative;
+                overflow: hidden;
+                background-color: rgba(255, 255, 255, .1);
+                display: block;
+
+                a {
+                    color: #fff;
+                    text-decoration: none !important;
+                    outline: 0;
+                    -moz-outline: none;
+
+                    img {
+                        position: absolute;
+                        // width: 100%;
+                        // height: 100%;
+                        aspect-ratio: 1/1;
+                        width: 60px;
+                        // height: 10px;
+                        -o-object-fit: cover;
+                        object-fit: cover;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                    }
+                }
+            }
+
+            .film-detail {
+                font-size: 12px;
+                line-height: 1.2em;
+                min-height: 60px;
+                color: #ddd;
+                position: relative;
+                z-index: 2;
+
+                .film-name {
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 1.4em;
+                    // margin-bottom: 5px;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+
+                    .d-title {
+                        color: #fff;
+                        text-decoration: none !important;
+                        outline: 0;
+                        -moz-outline: none;
+                    }
+                }
+
+                .fd-infor {
+                    display: -webkit-box;
+                    -webkit-line-clamp: 1;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+
+                    .fdi-item {
+                        white-space: nowrap;
+                        font-size: 14px;
+                        color: #979797;
+                    }
+
+                    .dot {
+                        width: 4px;
+                        height: 4px;
+                        border-radius: 50%;
+                        background: rgba(255, 255, 255, .3);
+                        display: inline-block;
+                        margin: 3px 6px;
+                    }
+                }
+
+            }
+        }
+    }
+    .more{
+        a{
+            // display: block;
+            color: #ddd;
+            padding: 15px 20px;
+            background: rgba(255,255,255,.1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 7px;
+
+        }
+
+    }
+}

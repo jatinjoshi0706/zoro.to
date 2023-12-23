@@ -1,0 +1,78 @@
+.genresContainer {
+    background-color: transparent;
+    max-width: 30%;
+    height: 55%;
+    margin: 10px;
+}
+
+.genresHead {
+    font-size: 22px !important;
+    line-height: 40px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    color: #cae962;
+    margin-bottom: 5px;
+}
+
+.genresName {
+    float: left;
+    width: 31.33%;
+    margin: 0 1% 3px;
+    // border:  1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.genres {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    
+    .showMore {
+        max-width: 80%;
+        height: fit-content;
+        text-align: center;
+        background-color: rgb(73, 73, 73);
+
+        .more {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.genresList {
+    .genresName {
+        a {
+            text-decoration: none;
+        }
+
+        &:hover,
+        &:active {
+            background-color: rgba(255, 255, 255, .1);
+
+        }
+
+
+
+    }
+
+    span:nth-of-type(4n+1) a {
+        color: rgb(247, 101, 101);
+    }
+
+    span:nth-of-type(4n+2) a {
+        color: rgb(77, 180, 77);
+    }
+
+    span:nth-of-type(4n+3) a {
+        color: rgb(101, 101, 236);
+    }
+
+    span:nth-of-type(4n+4) a {
+        color: rgb(238, 238, 123);
+    }
+
+    
+}

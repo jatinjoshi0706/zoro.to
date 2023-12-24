@@ -184,7 +184,7 @@
         }
 
         .recently-updated{
-            max-width: 78%;
+            max-width: 75%;
 
         }
         .recentgrid {
@@ -261,13 +261,16 @@
                 }
             }
         }
-        // .genresSection{
-        //     // position: absolute;
-        //     // top: ;
-        // }
-    }
-    .section04{
-        
+        .genresSection{
+            // display: inline;
+            position: relative;
+            top: -780px;
+            right: -10x;
+            max-width: fit-content;
+            display: flex;
+            flex-direction: row-reverse;
+
+        }
     }
 
 }

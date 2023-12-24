@@ -10,6 +10,7 @@ import SocialConnect from '../main/SocialConnect/SocialConnect';
 import AnimeFeatured from './AnimeFeatured/AnimeFeatured';
 import Genres from '../Genres/Genres.jsx';
 import gridItem01 from "../../Assets/onepieceItemImg.jpg"
+import Footer from '../Footer/Footer.jsx';
 const Home = () => {
     return (
         <>
@@ -149,6 +150,10 @@ const Home = () => {
                     <div className='genresSection'>
                         <Genres />
                     </div>
+
+                </div>
+                <div>
+                    <Footer />
                 </div>
             </div>
         </>

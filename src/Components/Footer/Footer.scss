@@ -1,0 +1,109 @@
+.footer{
+    padding: 0 0 0;
+    position: relative;
+    background: #2a2c31 url("https://s2.bunnycdn.ru/assets/t4/s1/images/footer.jpg") top center no-repeat;
+    
+
+    .footer-about{
+        padding: 30px 0;
+        margin: 20px;
+        font-size: 12px;
+        
+        .container{
+            position: relative;
+            z-index: 3;
+
+
+            .footer-top{
+                margin-bottom: 20px;
+                padding-bottom: 20px;
+                border-bottom: 1px solid rgba(255,255,255,.15);
+                display: inline-block;
+
+                a{
+                    display: block;
+                    float: left;
+                    margin: 0 40px 0 0;
+
+                    img{
+                        width: auto;
+                        height: 40px;
+                    }
+                    .clearfix::after{
+                        display: block;
+                        clear: both;
+                        content: "";
+                    }
+                }
+                .footer-joingroup{
+                    float: left;
+                }
+            }
+
+            .footer-az{
+                margin: 0 0 10px;
+
+                .block{
+                    margin-bottom: 1rem!important;
+
+                    .ftaz{
+                        display: inline-block;
+                        padding-right: 20px;
+                        margin-right: 20px;
+                        border-right: 1px solid rgba(255,255,255,.3);
+                        line-height: 1em;
+                        font-size: 1.4em;
+                        font-weight: 600;
+                    }
+                }
+                .ulclear{
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+
+                    li{
+                        margin: 0 10px 10px 0;
+                        display: inline-block;
+                        background-color: #67686cbe;
+                        padding: 2px 5px;
+                        border-radius: 2px;
+                    }
+                }
+
+            }
+            .footer-links{
+                margin-bottom: 10px;
+
+                .ulclear{
+                    display: flex;
+                    gap: 25px;
+
+                    li{
+                        font-size: 12px;
+                        a{
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+            }
+            .about-text{
+                margin: 0 auto 5px;
+                line-height: 1.4em;
+                opacity: .5;
+
+                .copyright{
+                    margin-bottom: 0!important;
+                    opacity: .5;
+                }
+            }
+        }
+    }
+
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

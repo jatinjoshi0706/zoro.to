@@ -1,8 +1,8 @@
 .genresContainer {
     background-color: transparent;
-    max-width: 30%;
-    height: 55%;
-    margin: 10px;
+    max-width: 25%;
+    height: 60%;
+    // margin: 10px;
 }
 
 .genresHead {
@@ -19,13 +19,16 @@
     float: left;
     width: 31.33%;
     margin: 0 1% 3px;
-    // border:  1px solid black;
+    // // border:  1px solid black;
     border-radius: 5px;
     text-align: center;
+    font-size: 12px;
+    line-height: 2.5em;
+    font-weight: bold;
 }
 
 .genres {
-    background-color: black;
+    background-color: rgb(31, 30, 30);
     padding: 20px 0 ;
     display: flex;
     flex-direction: column;
@@ -35,13 +38,13 @@
     button{
         margin: 7px 0;
         width: 85%;
-        height: 40px;
-        background-color: rgb(61, 61, 61);
+        height: 50px;
+        background-color: rgba(85, 85, 85, 0.618);
         border: 1px solid transparent;
         border-radius: 3px;
         transition: all 0.3s ease-in-out;
         &:hover {
-            background-color: rgba(61, 61, 61, 0.8) ;
+            background-color: rgba(48, 47, 47, 0.8) ;
             }
 
     }
